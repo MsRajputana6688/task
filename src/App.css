@@ -1,0 +1,138 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: #89abf0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fild {
+  padding: 40px;
+  background: #363d46;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+}
+
+.ans {
+  font-size: 30px;
+  text-transform: capitalize;
+  text-align: center; 
+  color: #fff;
+  padding: 30px 0px;
+
+}
+
+
+.progres {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20px;
+  margin: 10px 0px ;
+}
+
+.right,.wrog {
+  width: 100%;
+  height: 15px;
+  border-radius: 10px ;
+  overflow: hidden;
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+.right{
+  background: rgba(0, 128, 0, 0.527);
+}
+.wrog{
+  background: rgba(128, 13, 0, 0.527);
+}
+
+
+.right-pro {
+  width: 40%;
+  height: auto;
+  font: 18px;
+  color: #fff;
+  padding: 10px 0px;
+}
+
+.wrog-pro {
+  padding: 10px 0px;
+  color: #fff;
+  width: 40%;
+  height: auto;
+  font: 18px;
+}
+
+.right span {
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  background: greenyellow;
+}
+/* 
+.right span {
+} */
+
+.wrog span {
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  background: red;
+}
+
+/* .wrog span:nth-child(1) { */
+/* } */
+
+
+.qu {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px;
+}
+
+.Question {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffff;
+
+  padding: 5px 0px;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  text-align: left;
+  padding: 0px 10px;
+  background: none;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 250, 250, 0.5);
+  margin: 3px auto;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:active {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.AnsList {
+  font-size: 30px;
+  text-align: center;
+box-shadow: 0px 0px ;
+  color: #363d46;
+  background: #ffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 30px;
+  border: #363d46 1px solid;
+  border-radius: 8px;
+}
