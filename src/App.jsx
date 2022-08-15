@@ -12,7 +12,7 @@ function App() {
   const data = (arr) => {
     if (arr[0] + arr[1] == 4) {
       setDataRanger(false);
-      setScore([arr[0], arr[1]]);
+      setScore(arr[0]);
     }
   }
   return (
