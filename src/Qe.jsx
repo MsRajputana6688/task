@@ -54,10 +54,7 @@ const Qe = (props) => {
 
             </div>
             < div className="Question">
-
-                {
-                    props.Question[count].Q
-                }
+                {count+1}.  {props.Question[count].Q}
             </div>
             <div className="option">
                 <div>
